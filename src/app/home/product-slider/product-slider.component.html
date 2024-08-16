@@ -1,0 +1,10 @@
+<div class="position">
+    <p class="font">{{title}}</p>
+
+    <div class="flex-container">
+        <ng-container *ngFor="let item of products">
+
+            <app-home-product-card [product]="item"></app-home-product-card>
+        </ng-container>
+    </div>
+</div>
